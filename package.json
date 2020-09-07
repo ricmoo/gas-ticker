@@ -1,0 +1,24 @@
+{
+  "name": "gas-ticker",
+  "version": "0.0.1",
+  "description": "Oracle for tracking effective gas prices.",
+  "main": "index.js",
+  "dependencies": {
+    "ethers": "^5.0.11",
+    "level": "^6.0.1",
+    "level-rocksdb": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./serve-forever.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "gas station",
+    "gas",
+    "price"
+  ],
+  "author": "Richard Moore <me@ricmoo.com>",
+  "license": "MIT"
+}
