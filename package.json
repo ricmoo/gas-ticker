@@ -23,5 +23,9 @@
     "price"
   ],
   "author": "Richard Moore <me@ricmoo.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ricmoo/gas-ticker.git"
+  },
   "license": "MIT"
 }
