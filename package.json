@@ -1,7 +1,10 @@
 {
-  "name": "gas-ticker",
+  "name": "@ricmoo/gas-ticker",
   "version": "0.0.1",
   "description": "Oracle for tracking effective gas prices.",
+  "publishConfig": {
+      "access": "public"
+  },
   "main": "index.js",
   "dependencies": {
     "ethers": "^5.0.11",
